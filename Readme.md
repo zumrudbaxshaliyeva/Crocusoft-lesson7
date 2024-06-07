@@ -1,40 +1,56 @@
 ####  TYPESCRİPT
 
 ## Task1
-Generics İstifadəsi ilə Tip Təhlükəsiz Məlumat Strukturları Yaratmaq
+Primitive Types və Union Types İstifadəsi
 
-Bir Stack və Queue sinfi yaradın. Bu siniflər generics istifadə edərək tip təhlükəsiz məlumat strukturları yaratmalıdır. Push, pop, enqueue və dequeue metodlarını daxil edin.
+Bir formatInput funksiyası yazın. Bu funksiya həm string, həm də number tiplərini qəbul edə bilməli və girdiyə uyğun olaraq uyğun bir format qaytarmalıdır.
 
 
 
 ## Task2
-Type Guards ilə Xüsusi Tip Yoxlamaları
+Object və Arrays İstifadəsi
 
-Bir isStringArray funksiyası yazın. Bu funksiya bir array-in yalnız stringlərdən ibarət olub-olmadığını yoxlamalıdır. Type Guards istifadə edərək bunu həyata keçirin.
+
+Bir Student interfeysi yaradın. Bu interfeys, tələbənin adını, yaşını və aldığı dərslərin bir siyahısını daxil etməlidir. Daha sonra bir tələbə siyahısı yaradın və bu siyahını bir funksiyaya ötürərək tələbə məlumatlarını konsola yazdırın.
 
 
 
 ## Task3
-Advanced Union Types və Intersection Types İstifadəsi
+Tuples İstifadəsi
 
-Bir NetworkResponse tipi yaradın. Bu tip, uğurlu bir sorğu və uğursuz bir sorğunun xüsusiyyətlərini daxil etməlidir. Intersection Types istifadə edərək, vəziyyətin uğurlu və ya uğursuz olduğunu yoxlayan bir funksiya yazın.
 
+Bir parsePerson funksiyası yazın. Bu funksiya bir string almalı və bu stringi ayıraraq bir tuple (cüt) olaraq geri qaytarmalıdır. Tuple, şəxsin adını və yaşını daxil etməlidir.
 
 
 ## Task4
-Bir Readonly<T> mapped type yaradın. Bu tip, verilmiş tipin bütün xüsusiyyətlərini readonly etməlidir. Bu mapped type-ı istifadə edərək bir obyektin bütün xüsusiyyətlərini readonly edin.
+Functions İstifadəsi
+
+
+
+Bir calculateArea funksiyası yazın. Bu funksiya bir şəkilin növünə (dairə və ya düzbucaqlı) görə sahəsini hesablamalıdır. Union types və function overloads istifadə edərək bunu həyata keçirin.
 
 
 
 ## Task5
-Template Literal Types ilə Tip Təhlükəsiz String Manipulyasiyası
+Type Aliases İstifadəsi
 
-Bir StringKeyOf<T> utility type yaradın. Bu type, verilmiş tipin yalnız string xüsusiyyətlərinin açarlarını daxil etməlidir. Template Literal Types istifadə edərək bunu həyata keçirin.
 
+
+Bir Person və Employee type alias-ları yaradın. Employee type alias-ı Person-dan törəməli və əlavə olaraq employeeId və department xüsusiyyətlərini daxil etməlidir. Daha sonra bir printEmployeeInfo funksiyası yazın.
 
 
 ## Task6
-Conditional Types ilə Tip Yoxlaması və Manipulyasiyası
+Interface İstifadəsi
 
-Bir NonNullableProperties<T> conditional type yaradın. Bu type, verilmiş tipin null və ya undefined olmayan xüsusiyyətlərini daxil etməlidir.
 
+
+Bir Car interfeysi yaradın. Bu interfeys, make, model, year və drive metodunu daxil etməlidir. Daha sonra bu interfeysi implement edən bir ElectricCar sinfi yazın.
+
+
+
+## Task7
+Arrays və Type Aliases İstifadəsi
+
+
+
+Bir Product type alias-ı yaradın və bu tipdə bir məhsul siyahısı təyin edin. Daha sonra, məhsul siyahısındakı ümumi qiyməti hesablayan bir funksiya yazın.
